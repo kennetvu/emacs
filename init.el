@@ -131,6 +131,9 @@
 ;; For editing lisps
 (load "elips-editing.el")
 
+;; Keybindings
+(load "key-binding.el")
+
 ;; tools
 (load "setup-magit.el")
 
