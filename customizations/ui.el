@@ -15,6 +15,7 @@
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
 
+
 ;; Don't show native OS scroll bars for buffers because they're redundant
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))

@@ -1,17 +1,17 @@
 ;; Setup for mac
 
 ;;alt/option to super, command to meta -> same as regular keyboard ctrl and alt
-(setq mac-option-modifier 'super)
-(setq mac-command-modifier 'meta)
+;(setq mac-option-modifier 'super)
+;(setq mac-command-modifier 'meta)
 (setq ns-function-modifier 'hyper)
 
 ;; Norwegian mac-keyboard alt-keys)
-(define-key key-translation-map (kbd "s-8") (kbd "["))
-(define-key key-translation-map (kbd "s-(") (kbd "{"))
-(define-key key-translation-map (kbd "s-9") (kbd "]"))
-(define-key key-translation-map (kbd "s-)") (kbd "}"))
-(define-key key-translation-map (kbd "s-7") (kbd "|"))
-(define-key key-translation-map (kbd "s-/") (kbd "\\"))
+(define-key key-translation-map (kbd "M-8") (kbd "["))
+(define-key key-translation-map (kbd "M-(") (kbd "{"))
+(define-key key-translation-map (kbd "M-9") (kbd "]"))
+(define-key key-translation-map (kbd "M-)") (kbd "}"))
+(define-key key-translation-map (kbd "M-7") (kbd "|"))
+(define-key key-translation-map (kbd "M-/") (kbd "\\"))
 
 ;; fn-delete to be right delte
 (global-set-key [kp-delete] 'delete-char) 
