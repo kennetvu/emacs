@@ -64,7 +64,17 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+    
+    ;;Markdown mode
+    markdown-mode
+
+    ;;Dirtree
+    ;;dirtree
+    
+    ;;neotree
+    neotree
+))
 
 
 
@@ -132,11 +142,14 @@
 (load "elips-editing.el")
 
 ;; Keybindings
-(load "key-binding.el")
+(load "key-bindings.el")
 
 ;; tools
 (load "setup-magit.el")
+;(load "setup-dirtree.el")
+(load "setup-neotree.el")
 
 ;; Language specific
+(load "setup-markdown.el")
 (load "setup-clojure.el")
 (load "setup-js.el")
